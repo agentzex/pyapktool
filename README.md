@@ -20,12 +20,12 @@ $ python -m pip install pyapktool
 
 ### How to use
 
-Unpacking an apk file (output will be located in a directory named 'myapp') :
+Unpack an apk file (output will be located in a directory named 'myapp') :
 ```
 $ pyapktool myapp.apk
 ```
 
-Packing an unpacked Android app's directory, back to an apk file, and signing it with debug keys:
+Pack an unpacked Android app's directory, back to an apk file, and sign it with debug keys (output will be 'myapp-signed.apk'):
 ```
 $ pyapktool myapp
 ```
