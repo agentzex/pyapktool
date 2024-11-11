@@ -1,6 +1,40 @@
 [build-system]
 requires = [
-    "setuptools",
+    "setuptools>=42",
     "wheel"
 ]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyapktool"
+version = "0.1"
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+authors = [{name = "agentzex", email = "cypy919@gmail.com"}]
+description = "Unpack/Pack Android's apk and sign it. No prerequisites required."
+keywords = ["pyapktool", "apktool", "android apk", "apk decompiler", "apk decompile",
+            "android app decompiler", "android app unpacker", "android app packer",
+            "android apk unpacker", "android apk packer", "android app sign",
+            "android apk sign", "android apk debug keys"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities"
+]
+requires-python = ">=3.6"
+dependencies = [
+    "requests>=2.2.0",
+]
+
+[project.urls]
+Source = "https://github.com/agentzex/pyapktool/"
+
+[project.scripts]
+pyapktool = "pyapktool.pyapktool:main"
+
+
+
+
