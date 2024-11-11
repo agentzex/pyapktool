@@ -14,7 +14,7 @@ def change_cwd_to_tmp_dir(tmp_dir):
 
 @pytest.fixture(scope="module")
 def setup_test_files(tmp_path_factory):
-    """Fixture to copy test files to a temporary directory."""
+    # Fixture to copy test files to a temporary directory.
 
     temp_test_dir = tmp_path_factory.mktemp("test_files")
     local_test_files_dir = "test_files"
@@ -25,7 +25,7 @@ def setup_test_files(tmp_path_factory):
 
 
 def test_no_args():
-    """Test that the help message is displayed correctly."""
+    # Test that the help message is displayed correctly.
     result = subprocess.run(["pyapktool"], capture_output=True, text=True)
     assert result.returncode == 2
     assert "usage" in result.stderr.lower()  # Check for 'usage' in help message
