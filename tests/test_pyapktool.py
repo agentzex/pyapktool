@@ -33,6 +33,7 @@ def test_no_args():
 
 def test_input_hello_world_apk(setup_test_files):
     change_cwd_to_tmp_dir(setup_test_files)
+
     tested_apk = "hello_world.apk"
 
     temp_test_dir = setup_test_files
