@@ -11,7 +11,7 @@ setuptools.setup(
     license="MIT",
     author="agentzex",
     author_email="cypy919@gmail.com",
-    description="Unpack/Pack Android's apk and sign it",
+    description="Unpack/Pack Android's apk and sign it. No prerequisites required.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/agentzex/pyapktool",

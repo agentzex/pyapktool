@@ -8,7 +8,7 @@ Android apps:
 any modification/patching to the app)
 * It can sign a packed apk(by default-with debug keys. This is a required step in order to install your modified 
 apk to any Android device)
-* **No other libraries installation/tools are needed to use this tool.** 
+* **No other prerequisite libraries installation/tools are needed to use this tool.** 
 It will download/update any required tool ([apktool](https://github.com/iBotPeaches/Apktool), [apk-signer](https://github.com/patrickfav/uber-apk-signer)) automatically if needed.
 
 
