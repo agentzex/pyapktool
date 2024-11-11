@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyapktool"
-version = "0.1"
+version = "0.2"
 license = {file = "LICENSE.txt"}
 readme = "README.md"
 authors = [{name = "agentzex", email = "cypy919@gmail.com"}]
